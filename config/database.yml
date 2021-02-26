@@ -83,4 +83,4 @@ production:
   <<: *default
   database: tunr_api_production
   username: tunr_api
-  password: <%= ENV['TUNR_API_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
